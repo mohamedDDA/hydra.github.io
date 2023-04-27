@@ -1,0 +1,45 @@
+:root {
+    --orange: #FFB30E;
+    --red: #F17228;
+    --green: #79B93C;
+  }
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+/*colors */
+    .orange {  
+        color: #FFB30E;
+    }
+    .bg-orange {
+        background-color: var(--orange);
+    }
+    .bg-light {
+        background-color: rgba(241, 114, 40, 0.1);
+    }
+    .green {
+        color: #79B93C;
+    }
+    .bg-green {
+        background-color: #78b93ca4;
+    }
+    .red {
+        color: var(--red);
+    }
+    .bg-red {
+        background-color: var(--red);
+    } 
+/* Colors */
+
+/* Fonts */
+.bold {
+    font-weight: bold;
+}
+.normal {
+    font-weight: normal;
+}
+/* Fonts */
